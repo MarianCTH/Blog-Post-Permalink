@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS blog (
+  post_ID INT AUTO_INCREMENT PRIMARY KEY,
+  ID_author INT,
+  Subject VARCHAR(255),
+  Text TEXT,
+  Image VARCHAR(255),
+  Category VARCHAR(255),
+  Tags VARCHAR(255),
+  Permalink VARCHAR(255)
+);
